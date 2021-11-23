@@ -7,11 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: StylizedWater2_Lowpoly
+  m_Name: StylizedWater2_Lowpoly 1
   m_Shader: {fileID: 4800000, guid: f04c9486b297dd848909db26983c9ddb, type: 3}
   m_ShaderKeywords: _ADVANCED_SHADING _CROSSPAN_INTERSECTION _DEPTH_TEX _FLAT_SHADING
-    _NORMALMAP _RECEIVE_SHADOWS_OFF _REFRACTION _RIVER _SHARP_INERSECTION _TRANSLUCENCY
-    _WAVES
+    _FOAM _NORMALMAP _RECEIVE_SHADOWS_OFF _REFRACTION _RIVER _SHARP_INERSECTION _TRANSLUCENCY
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -95,9 +94,9 @@ Material:
     - _EdgeFade: 1.01
     - _EnvironmentReflections: 1
     - _FoamOpacity: 1
-    - _FoamSize: 0.695
-    - _FoamSpeed: 0.1
-    - _FoamTiling: 0.39999992
+    - _FoamSize: 0.01
+    - _FoamSpeed: 0.05
+    - _FoamTiling: 5
     - _FoamWaveMask: 1
     - _FoamWaveMaskExp: 1
     - _GlossMapScale: 0
@@ -106,7 +105,7 @@ Material:
     - _HorizonDistance: 8
     - _IntersectionClipping: 0.5
     - _IntersectionFalloff: 1
-    - _IntersectionLength: 1.98
+    - _IntersectionLength: 1.8
     - _IntersectionRippleDist: 1
     - _IntersectionRippleStrength: 0
     - _IntersectionSource: 0
@@ -155,22 +154,22 @@ Material:
     - _WaveSpeed: 3
     - _WaveSteepness: 0.1
     - _WaveTint: 0
-    - _WavesOn: 1
+    - _WavesOn: 0
     - _WorkflowMode: 1
     - _WorldSpaceUV: 1
     - _ZWrite: 1
     m_Colors:
-    - _AnimationParams: {r: 1, g: 1, b: 5, a: 0}
+    - _AnimationParams: {r: 1, g: 1, b: 2, a: 0}
     - _BaseColor: {r: 0, g: 0.7243595, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DepthMapBounds: {r: 0, g: 0, b: 0, a: 0}
     - _DistanceNormalParams: {r: 100, g: 300, b: 0.25, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.5254902}
     - _HorizonColor: {r: 0.41037738, g: 0.71931076, b: 1, a: 1}
     - _IntersectionColor: {r: 1, g: 1, b: 1, a: 1}
     - _ShallowColor: {r: 0, g: 1, b: 0.98, a: 0.44705883}
-    - _SlopeParams: {r: 0, g: 1, b: 0, a: 0}
+    - _SlopeParams: {r: 0.474, g: 4, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _TranslucencyParams: {r: 1, g: 4, b: 0, a: 0}
     - _VertexColorMask: {r: 0, g: 0, b: 1, a: 0}
