@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9f2fdde93a0b5b24092704d0083247c8
+guid: 45dc2ecb3b095fe4ba3b6d6e0632a50c
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -7,38 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: harp_pillar_mat
-    second: {fileID: 2100000, guid: c57150be8a4dcf649b999a89abd15eca, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: harp_shoulder_mat
-    second: {fileID: 2100000, guid: bfe8ff9d2745cd24cafff2aa660d0dbc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: harp_step_Mat
-    second: {fileID: 2100000, guid: 9c4f5a2eddd25224691eb1410d857a87, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: harp_wing_pieces
-    second: {fileID: 2100000, guid: 9aef96c3fdbbdfa4a8c5b400972df645, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: harp_wing_root_mat
-    second: {fileID: 2100000, guid: bfe8ff9d2745cd24cafff2aa660d0dbc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
       name: lambert1
-    second: {fileID: 2100000, guid: 9c4f5a2eddd25224691eb1410d857a87, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: lambert2
-    second: {fileID: 2100000, guid: 926dbe99e0e6f4045a4b62df191b4437, type: 2}
+    second: {fileID: 2100000, guid: c57150be8a4dcf649b999a89abd15eca, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
